@@ -1,7 +1,11 @@
-# Recursive Web Directory Downloader (`rwdl`)
+<div align="center">
+  <h1>Recursive Web Directory Downloader (`rwdl`)</h1>
+  <img src="https://img.shields.io/badge/python-3.7%2B-blue" title="Python version">
+  <img src="https://img.shields.io/badge/license-MIT-green" title="License">
+</div>
 
-![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+> [!NOTE] 
+> Project has been moved to its own repository from [4ngel2769/side-projects](https://github.com/4ngel2769/side-projects)
 
 A versatile Python script that recursively downloads specific file types from web directories with Apache-style listings. Perfect for mirroring repositories, downloading software distributions, or archiving web content.
 
