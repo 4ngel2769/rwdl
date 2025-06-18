@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Recursive Web Directory Downloader (`rwdl`)</h1>
+  <h1>Recursive Web Directory Downloader (<code>rwdl</code>)</h1>
   <img src="https://img.shields.io/badge/python-3.7%2B-blue" title="Python version">
   <img src="https://img.shields.io/badge/license-MIT-green" title="License">
 </div>
