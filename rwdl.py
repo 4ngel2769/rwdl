@@ -14,6 +14,11 @@ from urllib.parse import urljoin
 from collections import deque
 import sys
 
+# Custom headers to mimic a browser request
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0'
+}
+
 class VersionAction(argparse.Action):
     def __init__(self, option_strings, version=None, dest=argparse.SUPPRESS, default=argparse.SUPPRESS, help="Show version and exit"):
         super().__init__(option_strings=option_strings, dest=dest, default=default, nargs=0, help=help)
@@ -228,8 +233,4 @@ def main():
     print("\nDownload process completed!")
 
 if __name__ == "__main__":
-    HEADERS = {
-        # Custom headers to mimic a browser request
-        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0'
-    }
     main()
