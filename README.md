@@ -31,8 +31,8 @@ A versatile Python script that recursively downloads specific file types from we
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/4ngel2769/side-projects.git
-cd side-projects/scripts/rwdl
+git clone https://github.com/4ngel2769/rwdl.git
+cd rwdl
 ```
 
 2. Install dependencies:
@@ -150,6 +150,9 @@ ssl._create_default_https_context = ssl._create_unverified_context
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
+
+> [!TIP]
+> Read the [Code of Conduct](CONTRIBUTING.md)
 
 Contributions are welcome! Please follow these steps:
 1. Fork the repository
